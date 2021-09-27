@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    background-image: url("endless-constellation.svg");
+    text-align: center;
+    margin: 0px;
+}
+
+.nav-bar {
+    text-align: right;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 2rem;
+    background-color: #EDE9FE;
+    border-bottom-left-radius: 1rem;
+}
+
+.header {
+    font-family: Josefin Sans;
+    font-size: 60px;
+    color: #F3F4F6;
+}
+
+.link-design {
+    color: #BE185D;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.input-field {
+    font-size: 20px;
+    height: 30px;
+    width: 150px;
+    border-radius: 0.5rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#submit-btn {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F9FAFB;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+#display-answer {
+    padding-top: 3rem;
+    font-family: Josefin Sans;
+    font-size: 40px;
+    font-weight: bold;
+    color: #F3F4F6;
+}
