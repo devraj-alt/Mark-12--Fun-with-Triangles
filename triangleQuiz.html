@@ -1,59 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Triangle Quiz</title>
-    <link href="quiz.css" rel="stylesheet">
-</head>
+    <link href="quiz.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <nav class="nav-bar">
-        <a class="link-design" href="home.html">Home</a>
-        <a class="link-design" href="isTriangle.html">Is Triangle?</a>
-        <a class="link-design" href="calculateHypotenuse.html">Hypotenuse</a>
-        <a class="link-design" href="calculateArea.html">Area</a>
+      <a class="link-design" href="home.html">Home</a>
+      <a class="link-design" href="isTriangle.html">Is Triangle?</a>
+      <a class="link-design" href="calculateHypotenuse.html">Hypotenuse</a>
+      <a class="link-design" href="calculateArea.html">Area</a>
     </nav>
 
-    <h1 class="header">Triangle Quizs</h1>
+    <h1 class="header">Triangle Quiz</h1>
 
     <form class="quiz-form">
-        <div class="question-container">
-            <p>1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
-            <label><input type="radio" name="question1" value="45°" />45°</label>
-            <label><input type="radio" name="question1" value="90°" />90°</label>
-            <label><input type="radio" name="question1" value="60°" />60°</label>
-        </div>
+      <div class="question-container">
+        <p>
+          1. What is the third angle for the triangle where angle1 = 45° and
+          angle2 = 45°?
+        </p>
+        <label><input type="radio" name="question1" value="45°" />45°</label>
+        <label><input type="radio" name="question1" value="90°" />90°</label>
+        <label><input type="radio" name="question1" value="60°" />60°</label>
+      </div>
 
-        <div class="question-container">
-            <p>2. If a triangle has an angle of 90 degrees, what is it called?</p>
-            <label><input type="radio" name="question2" value="obtuse" />Obtuse</label>
-            <label><input type="radio" name="question2" value="acute" />Acute</label>
-            <label><input type="radio" name="question2" value="right angle" />Right Angle</label>
-        </div>
+      <div class="question-container">
+        <p>2. If a triangle has an angle of 90 degrees, what is it called?</p>
+        <label
+          ><input type="radio" name="question2" value="obtuse" />Obtuse</label
+        >
+        <label
+          ><input type="radio" name="question2" value="acute" />Acute</label
+        >
+        <label
+          ><input type="radio" name="question2" value="right angle" />Right
+          Angle</label
+        >
+      </div>
 
-        <div class="question-container">
-            <p>3. What is the name of a triangle with equal vertices?</p>
-            <label><input type="radio" name="question3" value="Equilateral" />Equilateral</label>
-            <label><input type="radio" name="question3" value="Train" />Train</label>
-            <label><input type="radio" name="question3" value="Triennial" />Triennial</label>
-        </div>
+      <div class="question-container">
+        <p>3. What is the name of a triangle with equal vertices?</p>
+        <label
+          ><input
+            type="radio"
+            name="question3"
+            value="Equilateral"
+          />Equilateral</label
+        >
+        <label
+          ><input type="radio" name="question3" value="Train" />Train</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="question3"
+            value="Triennial"
+          />Triennial</label
+        >
+      </div>
 
-        <div class="question-container">
-            <p>4. What is the longest side of a triangle called?</p>
-            <label><input type="radio" name="question4" value="Hyppo" />Hyppo</label>
-            <label><input type="radio" name="question4" value="Hypopothamus" />Hypopothamus</label>
-            <label><input type="radio" name="question4" value="Hypotenuse" />Hypotenuse</label>
-        </div>
+      <div class="question-container">
+        <p>4. What is the longest side of a triangle called?</p>
+        <label
+          ><input type="radio" name="question4" value="Hyppo" />Hyppo</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="question4"
+            value="Hypopothamus"
+          />Hypopothamus</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="question4"
+            value="Hypotenuse"
+          />Hypotenuse</label
+        >
+      </div>
 
-        <div class="question-container">
-            <p>5. What is the name of the triangle with no equal sides?</p>
-            <label><input type="radio" name="question5" value="Scalene" />Scalene</label>
-            <label><input type="radio" name="question5" value="Caitlyn" />Caitlyn</label>
-            <label><input type="radio" name="question5" value="Galen" />Galen</label>
-        </div>
+      <div class="question-container">
+        <p>5. What is the name of the triangle with no equal sides?</p>
+        <label
+          ><input type="radio" name="question5" value="Scalene" />Scalene</label
+        >
+        <label
+          ><input type="radio" name="question5" value="Caitlyn" />Caitlyn</label
+        >
+        <label
+          ><input type="radio" name="question5" value="Galen" />Galen</label
+        >
+      </div>
     </form>
 
     <button id="submit-btn">Submit</button>
@@ -61,6 +104,5 @@
     <div class="display-answer"></div>
 
     <script src="triangleQuiz.js"></script>
-</body>
-
+  </body>
 </html>

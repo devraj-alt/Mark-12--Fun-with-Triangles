@@ -1,60 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
 body {
-    background-image: url("endless-constellation.svg");
-    text-align: center;
-    margin: 0px;
+  background-image: url("endless-constellation.svg");
+  text-align: center;
+  margin: 0px;
 }
 
 .nav-bar {
-    text-align: right;
-    font-family: Josefin Sans;
-    font-size: 25px;
-    font-weight: lighter;
-    padding: 2rem;
-    background-color: #EDE9FE;
-    border-bottom-left-radius: 1rem;
+  text-align: right;
+  font-family: Josefin Sans;
+  font-size: 25px;
+  font-weight: lighter;
+  padding: 2rem;
+  background-color: #ede9fe;
+  border-bottom-left-radius: 1rem;
 }
 
 .link-design {
-    color: #BE185D;
-    margin-left: 15px;
-    text-decoration: none;
+  color: #be185d;
+  margin-left: 15px;
+  text-decoration: none;
 }
 
 .header {
-    font-family: Josefin Sans;
-    font-size: 60px;
-    color: #F3F4F6;
+  font-family: Josefin Sans;
+  font-size: 60px;
+  color: #f3f4f6;
 }
 
 p {
-    list-style-type: none;
-    color: #F3F4F6;
-    font-family: Josefin Sans;
-    font-size: 20px;
+  list-style-type: none;
+  color: #f3f4f6;
+  font-family: Josefin Sans;
+  font-size: 20px;
 }
 
 label {
-    list-style-type: none;
-    color: #A5B4FC;
-    font-family: Josefin Sans;
-    font-size: 20px;
+  list-style-type: none;
+  color: #a5b4fc;
+  font-family: Josefin Sans;
+  font-size: 20px;
 }
 
 #submit-btn {
-    font-size: 20px;
-    font-weight: bold;
-    background-color: #F9FAFB;
-    border: none;
-    border-radius: 0.3rem;
-    margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f9fafb;
+  border: none;
+  border-radius: 0.3rem;
+  margin-top: 50px;
 }
 
 .display-answer {
-    padding-top: 3rem;
-    font-family: Josefin Sans;
-    font-size: 40px;
-    font-weight: bold;
-    color: #F3F4F6;
+  padding: 3rem;
+  font-family: Josefin Sans;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f3f4f6;
+}
+
+.quiz-form {
+  padding: 2rem;
 }
